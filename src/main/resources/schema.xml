@@ -23,8 +23,8 @@
               writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
         <heartbeat>select user()</heartbeat>
         <!-- can have multi write hosts -->
-        <writeHost host="hostM1" url="192.168.3.60:3306" user="root"
-                   password="bus365_0502">
+        <writeHost host="hostM1" url="**:*" user="root"
+                   password="*">
         </writeHost>
         <!-- <writeHost host="hostM2" url="localhost:3316" user="root" password="123456"/> -->
     </dataHost>
@@ -32,8 +32,8 @@
               writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
         <heartbeat>select user()</heartbeat>
         <!-- can have multi write hosts -->
-        <writeHost host="hostM1" url="192.168.3.60:3307" user="root"
-                   password="bus365_0502">
+        <writeHost host="hostM1" url="*:*" user="root"
+                   password="*">
         </writeHost>
         <!-- <writeHost host="hostM2" url="localhost:3316" user="root" password="123456"/> -->
     </dataHost>
